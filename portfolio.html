@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style_portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  </head>
+
+
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="home.html" id="navbar__logo">Elorie Bernard-Lacroix</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="portfolio.html" class="navbar__links" id="home-page">portfolio</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="handbook.html" class="button" id="portfolio-page">handbook</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    
+
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__content" id="hero__content">
+        <p>Welcome! <br><br> Use your mouse to <br> drag the images <br> towards to the left</p>
+      </div>
+      <!-- <img src="DSC_0521.JPG" id="me"> -->
+      <div class = "hero__image-track" id = "image-track" data-mouse-down-at="0" data-prev-percentage="0">
+        <img class = "image" src = "images/Praxis I.jpg" draggable="false">
+        <img class = "image" src = "images/Praxis I (2).jpg" draggable="false">
+        <img class = "image" src = "images/bridge1.JPG" draggable="false">
+        <img class = "image" src = "images/bridge3.JPG" draggable="false">
+        <img class = "image" src = "images/bridge4.jpg" draggable="false">
+        <img class = "image" src = "images/Praxis II team.jpg" draggable="false">
+        <img class = "image" src = "images/showcase.jpg" draggable="false">
+      </div>
+    
+      <script src="app.js"></script>
+
+
+      <div class="hero__container">
+        <p class="hero__heading1">Hello! Welcome to my Praxis II handbook and portfolio.</p>
+        <p class="hero__heading2">An Engineering Science Student at <br>the University of Toronto</p>
+        <!-- <p class="hero__p1"> eb.lacroix04@gmail.com | (647) 235-1681</p> -->
+      </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><img src="profile pic.jpg"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>introduction</h1>
+          <p>Welcome to my portfolio. This page goes over my approaches and perspectives on engineering design, my values, my biases, 
+            and my skills. But, I am a strong believer in showing rather than telling so there is also a section focused on my design products, including design experiences and products.</p>
+          
+          <p> To move to a specific section, please use the following links: </p>
+          <p>
+            <a href="#position">Position</a><br>
+            <a href="#values">Values, Biases, Assumptions</a><br>
+            <a href="#skills">Skills</a><br>
+            <a href="#products">Engineering Products</a><br>
+            
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="resume" id="resume">
+      
+    </div>
+
+    <!-- engineering, design, and engineering design -->
+    <div class="position" id="position">
+      <div class="position__content" id = "position">
+        <h1> engineering, design, and engineering design</h1>
+        <p>
+          I see <strong>design</strong> as the process of creating something to serve a purpose. It involves understanding a need, creating, and sometimes
+           reiterating. Regardless of whether the process is messy, organized, done individually, or in groups, I do not believe there is 
+           a fair way of characterizing something as being more “design” than another. Anything that fits the previous criteria, I just see
+            as design. This definition is largely based on my experiences with robotics competitions, hackathons, and now Praxis, where I saw 
+            mind-blowing products that were all made through very different processes. This showed me that each process and structure for
+             design fit different personalities. The one thing all these design projects shared, however, was a purpose and the process 
+             of creation.
+          <br><br>
+          <strong>Engineering</strong> is a subset of design that involves the application of the natural sciences and mathematics to any part of the 
+          design process. For example, a data engineer might not engage in the entire design process but by gathering data on a product, 
+          they see what is effective and what is not, which contributes to the reiteration process. Data engineers could also be assessing 
+          the needs of a targeted community which would tie into the framing part of the design process. Some may argue the necessity of the 
+          natural sciences and mathematics in engineering, but as a student in an engineering program who uses mathematics and science in 
+          every course to date, I see it as obligatory. After all, it is a degree of “applied science”. 
+          <br><br>
+          <strong>Engineering design</strong> is the process of design that involves the application of the natural sciences as a whole. Therefore, 
+          unlike engineering, it would never refer to only a part of the design process, but instead the design process from start to 
+          finish. This would include, at the very minimum, the identification of a need and the creation of a product to fulfill that 
+          need. I do believe that this product would absolutely require the application of science or math to fulfill the “engineering” 
+          aspect of the word.
+          <br><br>
+          I engage in engineering because I enjoy creating and want to make the world around me a better place. Even as a young child, 
+          I have always been a caring person who found fulfillment and happiness through helping those in need. Of course, a lot of 
+          disciplines help others but I am interested in long-lasting effects (like products that leave a legacy) and I also love how 
+          engineering often involves the combination of several areas of knowledge to make the best results. Engineers need to 
+          combine their unique experiences, creativity, knowledge of science, and a people-oriented approach to succeed and I want to 
+          embody that. 
+        </p>
+      </div>
+    </div>
+
+    <!-- Values, Biases, etc. -->
+    <div class="position__content" id = "values">
+      <h1> values, biases, and assumptions </h1>
+
+      <h2> language, interpretation, and communication </h2>
+      <p> My experiences with language and communication have shaped the way I communicate, interpret other perspectives, and build my own 
+        perspective of the world around me. I was raised in two languages, French and English. Growing up with the freedom of expressing 
+        myself and seeing the world through both has always made communication in only one of the two languages seem limiting. I am 
+        therefore hyper-aware of just how much language can shape our interpretation of the world. It can even decide what exists to us 
+        and what we ignore since certain things simply don't have words assigned to them in a language. Even minor details, like the fact 
+        that a bridge is a masculine noun in French, can affect our perception. In my experience, francophones have a tendency to describe 
+        bridges as strong and sturdy, rather than beautiful and elegant like speakers of other languages who have it as a feminine noun. 
+        My languages, along with my formal education, and perhaps my philosophy books as well, have taught me that there is no way for us 
+        to truly understand or communicate what reality is. As soon as we try to, it becomes an interpretation. 
+      
+        <br>
+        <br>
+        This is why when I approach opportunities in engineering, my interpretation of stakeholder needs may be limited by our means of 
+        communication, my inherent biases due to my languages (or even our different use of the same language), and the way certain topics 
+        are usually addressed in my culture. This is why I tend to communicate through more than one language (if possible), through 
+        metaphors, art, photos, diagrams, and other mediums. It fills in the gaps of things that simply can’t be expressed through language 
+        alone and may overcome the limitations of language. 
+      </p>
+      <br>
+
+      <h2> positive change: community, environmentalism, social equity </h2>
+      <p>
+        I believe communities need people to exist and people need communities in order to give them a sense of meaning. One of the things 
+        that drive my interest in engineering is to serve my community and make it a better place for everyone. Therefore, I try to 
+        incorporate it into everything I do. In engineering, this usually translates to making accessibility, affordability, and safety 
+        a priority in our objectives, as you will see in my Praxis II projects. This need has also specifically branched out into 
+        social equity and environmentalism. 
+        <br>
+        <br>
+
+        As a woman in engineering and a person who has worked with people of diverse backgrounds, I have developed a deep appreciation 
+        for diversity and the inclusion of all people, from all backgrounds. After researching the effects of engineering for only specific
+         demographics and being educated on the negative impacts of past settler-colonial projects, I want to make sure I account for women 
+         and other minorities in opportunity identification, research, and throughout the design process. 
+        <br>
+        <br>
+
+        Like most people my age, I have been raised in an era with the constant threat of environmental issues and my education on these 
+        topics probably surpasses that of many generations before mine. Because of this, I have become very considerate of the 
+        environment, and this extends to my practice of engineering, namely it has increased my willingness to design for the environment
+         and for our future.
+
+      </p>
+      <br>
+
+      <h2> curiosity and willingness to listen </h2>
+      <p> 
+
+        I value reading and learning about the world and the people around me. Although my grandfather never finished his high school education, he 
+        is one of the smartest people I know and he loves to read newspapers. Fortunately, with all the time I have spent with him and the 
+        articles he has encouraged me to read, he passed down his love for reading and the value of life-long learning to me. When I practice 
+        engineering, I listen and read a lot before acting. With this, he also taught me that listening to others regardless of their 
+        educational background or age is the most important part of being a kind and respectful leader. Over the course of my first year 
+        in engineering science, I have been priveleged enough to work with one of the most diverse groups of people I have ever met. Some 
+        come from different countries, many practice different religions, most people speak different languages, and all of them have taught me 
+        something new and valuable about engineering or about life.
+        I want to bring this value to the 
+        table by fully understanding what people want and need or why problems are occurring before tackling an engineering opportunity. 
+
+      </p>
+
+
+    </div>
+
+    <!-- Strengths and Weaknesses -->
+
+    <div class="position__content" id="strengthweak">
+      <h1>strengths & weaknesses</h1>
+      <h2> strengths </h2>
+      <p> <strong>Listening to understand:</strong> As mentioned earlier, I love listening and learning more about the people and the world around me.
+      Because I put a lot of effort into understanding other people's ideas, I tend to be good at integrative thinking, where we combine
+    the ideas of multiple group members into one main concept. </p>
+
+      <p> <strong>Trying new things: </strong>I've always loved trying new things. When new projects come along and I see an opportunity to 
+      learn a new coding language, a framework, a new platform, I am always eager to jump in and figure it out.</p>
+
+      <br><br>
+      <h2> weaknesses </h2>
+      <p> <strong>Speaking:</strong> Throughout Praxis II, I have noticed that it takes me a while to feel comfortable enough to share
+      my ideas, especially verbally. Instead I continue to listen to others and wait until my ideas are fully fleshed out. This can hinder 
+    my groups in stages like diverging, where pitching in any small points can lead to great ideas. To overcome this, the use of structured 
+  diverging tools is very helpful. I also like to build a good foundation of psychological safety with the rest of my group to feel like
+all of us can share anything without feeling judged. </p>
+
+    </div>
+
+    <!-- Portfolio Skills -->
+    <div class="services" id="skills">
+      <h1>skills</h1>
+      <div class="services__wrapper">
+        <div class="services__card"> 
+          <h2>Workflow Tools</h2>
+          <p>Microsoft Office</p>
+          <p>Git & GitHub</p>
+          <p>VS Code</p>
+
+          <!-- <div class="services__btn"><button><a href = "https://github.com/elorie-bernard-lacroix/bridge-failure-load-calculator">GitHub</a></button></div>-->
+        </a></div>
+        <div class="services__card">
+          <h2>Programming</h2>
+          <p>Python</p>
+          <p>C</p>
+          <p>LaTeX</p>
+          <p>Matlab</p>
+
+        </a></div>
+        <div class="services__card">
+          <h2>Design</h2>
+          <p>Computer-Aided Design (Onshape)</p>
+          <p>Engineering Design</p>
+        </a></div>
+        <div class="services__card">
+          <h2>Languages</h2>
+          <p>English (Fluent)</p>
+          <p>French (Native Proficiency)</p>
+          <p>Spanish (Limited Working Proficiency)</p>
+        </a></div>
+      </div>
+    </div>
+
+    <!-- Projects  -->
+
+    <!-- Components to include:
+    - project title
+    - project description, project components, etc.
+    - skills used
+    - project image
+    -->
+
+    <div class ="products" id="products">
+      <h1>engineering products</h1>
+
+      
+      <div class="tab-box">
+        <div class="tabs">
+          <div class="tab active" onclick="openTab(event, 'tab1')">ESC101 Design Project</div>
+          <div class="tab" onclick="openTab(event, 'tab2')">ESC102 Design Project</div>
+          <div class="tab" onclick="openTab(event, 'tab3')">CIV102 Bridge Project</div>
+          <div class="tab" onclick="openTab(event, 'tab4')">Synonym Detector</div>
+        </div>
+
+        <!-- ESC101 Design Project -->
+        <div id="tab1" class="tab-content active">
+          
+          <h2> ESC101 Design Project </h2>
+          <br>
+
+          <iframe src="https://drive.google.com/file/d/1WHg9-rQJAQ0FbRpJaS2B_jR7UilJDyDo/preview" width="800px" height="1000" allow="autoplay"></iframe>
+
+        </div>
+
+        <!-- ESC102 Design Project -->
+        <div id="tab2" class="tab-content">
+          <h2> ESC102 Design Project </h2>
+          <p> Group Members: Leah Ben-Tzur, Tony Wang, Bryce Warren </p>
+          <h3> description </h3>
+          <p>  </p>
+          <h3> key skills </h3>
+          <ul> 
+            <li> Computer-Aided Design (Onshape) </li>
+            <li> Report Writing, Latex </li>
+            <li> Prototyping, Designing </li>
+          </ul>
+        </div>
+
+        <!-- CIV102 Bridge Project -->
+        <div id="tab3" class="tab-content">
+          <h2> CIV102 Bridge Project </h2>
+          <iframe src="https://drive.google.com/file/d/1dJ1vX07UfpHBeIbtFfHx_qAHot7_v2PW/preview" width="800px" height="1000" allow="autoplay"></iframe>
+        </div>
+
+        <!-- Synonym Detector -->
+        <div id="tab4" class="tab-content">
+          <h2> Synonym Detector </h2>
+          <p> Group Member: Chaewon Lim </p>
+          <p> <strong> description </strong> </p>
+          <p> This program draws from the data in the attached text files to statistically predict the synonym of a given word with a 70% accuracy. To avoid timing out due to large amounts of data, it has a low time complexity of O(n).
+
+            The following file outlines the detailed instructions of the assignment: <a href="https://drive.google.com/file/d/1TvJii5-bYcf5X5tsEmR1LNgLIZVMsckz/preview">p3_synonyms.pdf</a></p>
+
+            <p> main python program: <br>
+              The main python program can be access on my GitHub account using this <a href="https://github.com/elorie-bernard-lacroix/ESC180_Project3/blob/main/synonyms.py">link</a>. </p> 
+              
+            </p>
+
+            <p>
+              <strong> the text files: </strong> <br>
+              The data that the program uses to make predictions are from two main text files:
+              <a href="https://raw.githubusercontent.com/elorie-bernard-lacroix/ESC180_Project3/main/wp.txt">The Project Gutenberg eBook of War and Peace, by Leo Tolstoy</a> and
+              <a href="https://github.com/elorie-bernard-lacroix/ESC180_Project3/blob/main/sw.txt">The Project Gutenberg EBook of Swann's Way, by Marcel Proust</a>.
+            </p>
+
+          <p> <strong>skills</strong> </p>
+          <p> Python, Data Analysis, Basics of Machine Learning </p>
+
+        </div>
+      </div>
+    </div>
+
+   
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
